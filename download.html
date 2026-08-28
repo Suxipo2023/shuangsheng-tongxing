@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>《双生同行》— 下载</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      color: #fff;
+      padding: 24px;
+    }
+    .container {
+      max-width: 640px;
+      width: 100%;
+    }
+    .hero {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .dot {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+    }
+    .dot.black { background: #111; border: 2px solid rgba(255,255,255,0.2); }
+    .dot.white { background: #fff; }
+    h1 {
+      font-size: 42px;
+      font-weight: 800;
+      letter-spacing: 4px;
+      background: linear-gradient(90deg, #fff 0%, #a8d8ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .subtitle {
+      font-size: 16px;
+      color: rgba(255,255,255,0.6);
+      margin-top: 12px;
+      letter-spacing: 2px;
+    }
+    .card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      backdrop-filter: blur(12px);
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+    }
+    .card:hover {
+      background: rgba(255,255,255,0.09);
+      border-color: rgba(255,255,255,0.2);
+      transform: translateY(-2px);
+    }
+    .card-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .card-desc {
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+      margin-bottom: 16px;
+      line-height: 1.6;
+    }
+    .card-meta {
+      display: flex;
+      gap: 16px;
+      font-size: 13px;
+      color: rgba(255,255,255,0.45);
+      margin-bottom: 16px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 28px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      box-shadow: 0 4px 16px rgba(102,126,234,0.3);
+    }
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(102,126,234,0.45);
+    }
+    .btn-secondary {
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.18);
+    }
+    .btn-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 600;
+      background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+    .play-btn {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      text-align: center;
+      margin-top: 24px;
+      font-size: 17px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .feature {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      color: rgba(255,255,255,0.7);
+    }
+    .feature svg {
+      flex-shrink: 0;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 32px;
+      font-size: 12px;
+      color: rgba(255,255,255,0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <div class="logo">
+        <div class="dot black"></div>
+        <h1>双生同行</h1>
+        <div class="dot white"></div>
+      </div>
+      <p class="subtitle">TWO SOULS · ONE JOURNEY</p>
+    </div>
+
+    <div class="card">
+      <div class="card-title">
+        完整游戏包 <span class="badge">推荐</span>
+      </div>
+      <div class="card-desc">
+        包含全部 15 个正常关卡 + 第 16 关彩蛋、移动尖刺、星空背景、火箭烟花、制作人员名单、音效系统、存档功能、关卡选择。单文件 HTML，双击即玩。
+      </div>
+      <div class="card-meta">
+        <span>📦 ZIP 压缩包 · 35 KB</span>
+        <span>🎮 完全离线 · 无依赖</span>
+      </div>
+      <div class="btn-row">
+        <a href="双生同行.zip" download class="btn btn-primary">下载 ZIP 压缩包</a>
+        <a href="README.txt" download class="btn btn-secondary">查看说明</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title">单文件 HTML 版</div>
+      <div class="card-desc">
+        单个 HTML 文件，所有代码内联，所有关卡、音效、动画都在里面。下载后直接双击打开，用任意现代浏览器即可游玩。
+      </div>
+      <div class="card-meta">
+        <span>📄 HTML · 133 KB</span>
+        <span>🌐 支持 Chrome/Edge/Firefox/Safari</span>
+      </div>
+      <div class="btn-row">
+        <a href="双生同行 - 双人合作解谜.html" download class="btn btn-primary">下载 HTML</a>
+      </div>
+    </div>
+
+    <a href="index.html" class="btn btn-primary play-btn">🎮 在线试玩</a>
+
+    <div class="features">
+      <div class="feature">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+        <span>16 个精心设计关卡</span>
+      </div>
+      <div class="feature">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+        <span>双人本地合作</span>
+      </div>
+      <div class="feature">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+        <span>完整音效系统</span>
+      </div>
+      <div class="feature">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+        <span>自动存档进度</span>
+      </div>
+      <div class="feature">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+        <span>星空穹顶彩蛋</span>
+      </div>
+      <div class="feature">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+        <span>零依赖 · 纯离线</span>
+      </div>
+    </div>
+
+    <div class="footer">
+      制作：王嘉阳 · 双生同行 双人合作解谜
+    </div>
+  </div>
+</body>
+</html>
